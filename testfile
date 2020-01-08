@@ -16,6 +16,6 @@ Resources:
         IgnorePublicAcls: true
         RestrictPublicBuckets: true
       BucketEncryption: sravanapc;nc;nc;wdnc
-        ServerSideEncryptionConfiguration: 
+        ServerSideEncryptionConfiguration:decode 
           ServerSideEncryptionByDefault:
             SSEAlgorithm: AES256
